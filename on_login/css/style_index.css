@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+ul li {
+	display: inline-block;
+}
+ul li h1{
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 270px;
+}
+ul li a {
+	color: black;
+	padding: 0px 20px 0px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Roboto";
+	font-size: 22px;
+	letter-spacing: 0.5px;
+	transition: all ease-in-out 250ms;
+	border-radius: 12px;
+  color:white;
+}
+.ul-header{
+  margin-top: 0px;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+.navbar-class{
+  background-color: #5B6A9F;
+  color:white;
+}
+.table1 {
+  width: 90%;
+  text-align: center;
+  border-radius: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table1 td {
+  vertical-align: top;
+  padding: 20px;
+  margin:10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#td1 {
+  width: 326px;
+  height: 194px;
+  text-align: center;
+}
+.foot {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 20px;
+  background: grey;
+}
+.column {
+  float: left;
+  width: 55%;
+  margin-left: 5px;
+  margin-right: auto;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+.column-mapel {
+  float: left;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: auto;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+.column-leftpanel {
+  float: left;
+  width: 20%;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
